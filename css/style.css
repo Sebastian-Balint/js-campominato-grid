@@ -1,0 +1,76 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-black {
+  background-color: black;
+}
+.t-white {
+  color: white;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.container-game {
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 800px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.bg-personalizzato {
+  background-color: crimson;
+}
+
+.col-facile {
+  width: calc(100% / 10) !important;
+  aspect-ratio: 1 / 1 !important;
+  border: 1px solid white;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-media {
+  width: calc(100% / 9) !important;
+  aspect-ratio: 1 / 1 !important;
+  border: 1px solid white;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-difficile {
+  width: calc(100% / 7) !important;
+  aspect-ratio: 1 / 1 !important;
+  border: 1px solid white;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-clicked {
+  background-color: darkviolet;
+}
